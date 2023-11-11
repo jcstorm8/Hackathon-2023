@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" type="AnchorPane" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TitleController">
+   <children>
+      <Label id="lblTitle" layoutX="129.0" layoutY="48.0" text="Virtual Wellness Planner">
+         <font>
+            <Font name="Tw Cen MT Condensed" size="47.0" />
+         </font>
+      </Label>
+      <Label id="lblPhrase" layoutX="181.0" layoutY="101.0" text="Create a health plan that benefits you!">
+         <font>
+            <Font name="Tw Cen MT Condensed" size="20.0" />
+         </font>
+      </Label>
+      <TextField id="txtUsername" fx:id="txtUsername" layoutX="259.0" layoutY="176.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </TextField>
+      <TextField id="txtPassword" fx:id="txtPassword" layoutX="259.0" layoutY="219.0" />
+      <Label id="lblPassword" layoutX="190.0" layoutY="230.0" text="Password:">
+         <font>
+            <Font name="Tw Cen MT Condensed" size="18.0" />
+         </font>
+      </Label>
+      <Label id="lblUsername" layoutX="190.0" layoutY="187.0" text="Username:">
+         <font>
+            <Font name="Tw Cen MT Condensed" size="18.0" />
+         </font>
+      </Label>
+      <Button id="btnLogin" fx:id="btnLogin" layoutX="273.0" layoutY="283.0" mnemonicParsing="false" onAction="#btnLogInClicked" text="Log In">
+         <font>
+            <Font name="Tw Cen MT Condensed" size="12.0" />
+         </font>
+      </Button>
+      <Button id="btnSignUp" fx:id="btnSignUp" layoutX="270.0" layoutY="330.0" mnemonicParsing="false" onAction="#btnSignUpClicked" text="Sign Up" />
+   </children>
+</fx:root>
