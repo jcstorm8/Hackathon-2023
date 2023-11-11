@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<fx:root id="btnLogout_Choice" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" type="AnchorPane" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ChoiceController">
+   <children>
+      <Label id="lblChoiceTitle" layoutX="219.0" layoutY="63.0" text="Welcome!">
+         <font>
+            <Font name="Tw Cen MT Condensed" size="56.0" />
+         </font>
+      </Label>
+      <Label id="lblQuestion" layoutX="180.0" layoutY="126.0" text="What would you like to do today?">
+         <font>
+            <Font name="Tw Cen MT Condensed" size="24.0" />
+         </font>
+      </Label>
+      <Button id="btnCreatePlan" fx:id="btnCreatePlan" layoutX="32.0" layoutY="193.0" mnemonicParsing="false" onAction="#btnCreatePlanClicked" prefHeight="93.0" prefWidth="249.0" text="Create Plan">
+         <font>
+            <Font name="Tw Cen MT Condensed" size="40.0" />
+         </font>
+      </Button>
+      <Button id="btnReviewPlan" fx:id="btnReviewPlan" layoutX="314.0" layoutY="193.0" mnemonicParsing="false" onAction="#btnReviewPlanClicked" prefHeight="93.0" prefWidth="249.0" text="Review Plans">
+         <font>
+            <Font name="Tw Cen MT Condensed" size="40.0" />
+         </font>
+      </Button>
+      <Button id="btnLogout_Choice" fx:id="btnLogout" layoutX="532.0" layoutY="14.0" mnemonicParsing="false" onAction="#btnLogoutClicked" text="Logout">
+         <font>
+            <Font name="Tw Cen MT Condensed" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</fx:root>
